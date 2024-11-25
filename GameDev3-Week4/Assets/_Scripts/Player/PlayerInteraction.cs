@@ -35,12 +35,10 @@ namespace GameDevWithMarco.Player
         {
             if (Input.GetKeyDown(KeyCode.E))
             {
-<<<<<<< HEAD
+
                 if (thingIAmCollidingWith != null) return;
-=======
-                if (thingIAmCollidingWith == null) return;
->>>>>>> PlayerSpottedLogic
-                
+
+              
                 Iinteractibles iinteractibleObject = thingIAmCollidingWith.GetComponent<Iinteractibles>();
                 if (iinteractibleObject  != null)
                 {
